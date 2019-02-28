@@ -46,7 +46,7 @@ La herencia se consigue mediante una derivación, en la que se declara una clase
 Un ejemplo en donde se aplica todo esto es en el siguiente programa: 
 
 
-```
+```csharp
 class Persona 
    { 
        //Atributos o campos 
@@ -120,7 +120,7 @@ La palabra clave this, funciona igual dentro de un constructor.
 ***1. Escribe un programa donde utilices this para obtener acceso a miembros con el fin de evitar ambigüedades con nombres similares.*** 
 
 
-```
+```csharp
 { 
    class Contacto 
    { 
@@ -262,12 +262,12 @@ Este constructor predeterminado sólo se invoca si se crean instancias del tipo 
 
 Por ejemplo, el siguiente código contiene un error porque no se le agrega el new. 
 
-```
+```csharp
 int i; 
 Console.WriteLine(i); 
 ```         
 La manera correcta es:  
-```
+```csharp
 int i = new int(); 
 Console.WriteLine(i); 
 ```   
