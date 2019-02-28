@@ -15,13 +15,17 @@ Los miembros también son llamados como los datos y comportamientos de la clase,
 
 Cuando se crea un objeto de la clase, la variable a la que se asigna el objeto contiene solo una referencia a esa memoria. Cuando la referencia de objeto se asigna a una nueva variable, la nueva variable hace referencia al objeto original. Los cambios realizados en una variable se reflejan en la otra variable porque ambas hacen referencia a los mismos datos. 
 
-Una estructura es un tipo de valor. Existen dos tipos la estructura original y la copia o mejor dicho copias. Cuando se crea una estructura esta contiene los datos reales en ella, la cual es conocida como estructura original, cuando a dicha estructura se le asigna una nueva variable a esta se le conoce como copia, asi mismo estas dos son muy diferentes y contienen información independiente de la otra clase. 
+Una estructura es un tipo de valor. Existen dos tipos la estructura original y la copia o mejor dicho copias.
+
+-Cuando se crea una estructura esta contiene los datos reales en ella, la cual es conocida como estructura original
+-Cuando a dicha estructura se le asigna una nueva variable a esta se le conoce como copia, asi mismo estas dos son muy diferentes y contienen información independiente de la otra clase. 
 
 Dentro de esto también interviene: 
 
  
 **1. Tipos de referencia:** 
 Un tipo que se define como una clase, es un tipo de referencia. Al declarar una variable de un tipo de referencia en tiempo de ejecución.
+
 ![alt text](https://1.bp.blogspot.com/-iJsFK1g5_n0/UdieXNvilLI/AAAAAAAAFnY/yl9fdGzIzqQ/s1600/Dev+-+CSharp+5.0+in+a+Nutshell+-+Chapter+02+-+Figura+2.+Tipos+de+Datos+por+Referencia.png)
  
 **2. Declarar clases:**
