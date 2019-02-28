@@ -301,7 +301,72 @@ b) Los operadores ==, <, > sobrecargados.
 c) El uso de la palabra clave this. 
 
 d) Utiliza tu clase dentro del método Main de tu programa, creando tres dados, arrojándolos e imprimiendo el mejor de ellos 
-o si alguno es igual. 
+o si alguno es igual.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Dados2
+{
+    class Dado
+    {
+        //Atributos
+        private int valor;
+        private string color;
+     
+        //Método constructor
+        public Dado(int valor, string color)
+        {
+            this.valor = valor;
+            this.color = color;
+        }
+        public void Imprime()
+        {
+            Console.WriteLine("El ganador es:"+"Valor: {0}-Color: {1}", valor, color);
+        }
+       
+
+        //sobrecarga del operador
+        public static bool operator <=(Dado a, Dado b)
+        {
+            return a.valor < b.valor;
+        }
+        public static bool operator >=(Dado a, Dado b)
+        {
+            return (a.valor.CompareTo(b.valor) > 0);
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+          
+            Dado dado1=new Dado(3,"Rojo");
+            Dado dado2=new Dado(6,"Verde");
+            Dado dado3= new Dado(1,"Azul");
+
+            if(dado1>=dado2 && dado1>= dado3)
+            {
+                dado1.Imprime();
+            }
+            else if(dado2>=dado1 && dado2>=dado3)
+            {
+                dado2.Imprime();
+            }
+            else
+            {
+                dado3.Imprime();
+            }
+            Console.ReadKey();
+        }
+    }
+}
+```
+
 
   
  
