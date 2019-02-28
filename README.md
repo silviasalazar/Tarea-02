@@ -28,9 +28,8 @@ Los objetos se pueden crear usando la palabra clave new, seguida del nombre de l
 ![alt text](http://slideplayer.es/3097366/11/images/11/Pasos+Para+Crear+Objetos.jpg)
 
 **4. Herencia**
-<p style="text-align: justify;">
 La herencia se consigue mediante una derivación, en la que se declara una clase mediante una clase base, desde la que hereda los datos y el comportamiento. 
-![alt text](http://1.bp.blogspot.com/-a98FpmjRW1k/WNGlZI4p7ZI/AAAAAAAACyY/XbCiqIZV2aMKsf9U3o5QWsQoVVPS3ejPQCK4B/s1600/EjemploHerencia.jpg)
+![alt text] (http://1.bp.blogspot.com/a98FpmjRW1k/WNGlZI4p7ZI/AAAAAAAACyY/XbCiqIZV2aMKsf9U3o5QWsQoVVPS3ejPQCK4B/s1600/EjemploHerencia.jpg)
 
  
 Un ejemplo en donde se aplica todo esto es en el siguiente programa: 
@@ -100,7 +99,7 @@ El operador new Proporciona espacio de almacenamiento persistente, similar pero 
  
  La palabra clave this hace referencia a la instancia actual de la clase. 
  
-***a) Escribe un programa donde utilices this para obtener acceso a miembros con el fin de evitar ambigüedades con nombres similares.*** 
+***1. Escribe un programa donde utilices this para obtener acceso a miembros con el fin de evitar ambigüedades con nombres similares.*** 
 
 
 ```
@@ -173,7 +172,7 @@ foreach (Contacto contactos in Contactos)
 } 
 ```
  
-***b) Escribe un programa donde se utilice this como parámetro. ***
+***2. Escribe un programa donde se utilice this como parámetro.***
 
 ![Con titulo](https://images.techhive.com/images/article/2016/10/extensionmethods-100687247-primary.idge.jpg "titulo")
 
@@ -190,7 +189,6 @@ params especifica que este parámetro puede tomar un número variable de argumen
 - **in** especifica que este parámetro se pasa por referencia, pero solo se lee mediante el método llamado.
  
 - **ref** especifica que este parámetro se pasa por referencia y puede ser leído o escrito por el método llamado.
-  <p style="text-align: justify;">
  
 - **out** especifica que este parámetro se pasa por referencia y se escribe mediante el método llamado.
  
@@ -206,7 +204,7 @@ Esto es porque lo que nos ayuda a escribir es un método que recibe una cantidad
 **out (Referencia de C#)**
 https://msdn.microsoft.com/es-es/library/t3c3bfhx.aspx 
     
-***Puede usar la palabra clave out en dos contextos: ***    
+***Puede usar la palabra clave out en dos contextos:***    
 - Como un **modificador de parámetro**, que le permite pasar un argumento a un método mediante una referencia en lugar de mediante un valor. 
 La palabra clave out produce argumentos que se van a pasar por referencia. Ocurre igual que con la palabra clave ref, excepto en que ref requiere que se inicialice la variable antes de pasarla.  
   
@@ -227,7 +225,7 @@ En una firma del método, para devolver un valor al autor de la llamada mediante
 #### 2.5 Constructores y destructores: declaración, uso y aplicaciones. 
 ***Lee y escribe un resumen con tus palabras del siguiente documento:***
   
-**Utilizar constructores **
+**Utilizar constructores**
 
 ***¿Qué es?***   
 Los constructores son métodos de clase que se ejecutan cuando se crea un objeto de un tipo determinado. 
