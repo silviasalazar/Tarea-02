@@ -43,7 +43,7 @@ Las clases se declaran mediante la palabra clave class seguida por un identifica
 Los objetos se pueden crear usando la palabra clave new, seguida del nombre de la clase en la que se basará el objeto. 
 ![alt text](http://slideplayer.es/3097366/11/images/11/Pasos+Para+Crear+Objetos.jpg)
 
-**4. Herencia**
+**4. Herencia:**
 La herencia se consigue mediante una derivación, en la que se declara una clase mediante una clase base, desde la que hereda los datos y el comportamiento. 
 ![alt text](https://4.bp.blogspot.com/-BQ2Sr33UlEk/WJnpXQuTXJI/AAAAAAAABbo/GTUrPvV3f-Ec8YQeDa3O9yEaB4U-Y107ACK4B/s1600/herencia.PNG)
 
@@ -104,6 +104,7 @@ class Persona
 ## 2.2 Instanciación de una clase. 
  
 **Investiga sobre el operador new visto en clase. Describe algunos de sus usos.**
+
 El operador new Proporciona espacio de almacenamiento persistente, similar pero superior a la función de Librería Estándar malloc. Este operador permite crear un objeto de cualquier tipo, incluyendo tipos definidos por el usuario, y devuelve un puntero (del tipo adecuado) al objeto creado. Su utilización exige que el usuario declarare un puntero del tipo adecuado; a continuación, debe ser inicializado con el valor devuelto por el operador. 
 
 ![alt text](http://dis.um.es/~lopezquesada/documentos/IES_1314/IAW/curso/UT3/java/java3/images/Captura5.PNG)
@@ -374,4 +375,4 @@ namespace Dados2
 }
 ```
 ## Conclusión
-Las clases son muy importantes pero también cada una de sus características y puntos y/o funciones que la integran, ya que gracias a ellos es que puede llamarse clase y podrá ejecutarse para poder realizar alguna funcióon para la cual fue creada.
+Las clases son muy importantes pero también cada una de sus características y puntos y/o funciones que la integran, ya que gracias a ellos es que puede llamarse clase y podrá ejecutarse para poder realizar alguna función para la cual fue creada.
