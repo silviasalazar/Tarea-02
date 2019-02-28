@@ -10,14 +10,15 @@ Tarea 02 de site para la materia de Programación Orientada a Objetos (POO)
 
 *Lee y escribe un resumen con tus palabras del siguiente documento:*
  
- Las clases y estructuras son básicamente estructuras de datos que encapsulan un conjunto de datos y estructuras. 
+Las clases y estructuras son básicamente estructuras de datos que encapsulan un conjunto de datos y estructuras. 
 Los miembros también son llamados como los datos y comportamientos de la clase, estos incluyen métodos y propiedades, entre otras características.  
 
 Cuando se crea un objeto de la clase, la variable a la que se asigna el objeto contiene solo una referencia a esa memoria. Cuando la referencia de objeto se asigna a una nueva variable, la nueva variable hace referencia al objeto original. Los cambios realizados en una variable se reflejan en la otra variable porque ambas hacen referencia a los mismos datos. 
 
 Una estructura es un tipo de valor. Existen dos tipos la estructura original y la copia o mejor dicho copias.
 
--Cuando se crea una estructura esta contiene los datos reales en ella, la cual es conocida como estructura original
+-Cuando se crea una estructura esta contiene los datos reales en ella, la cual es conocida como estructura original.
+
 -Cuando a dicha estructura se le asigna una nueva variable a esta se le conoce como copia, asi mismo estas dos son muy diferentes y contienen información independiente de la otra clase. 
 
 Dentro de esto también interviene: 
