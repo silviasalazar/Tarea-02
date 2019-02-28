@@ -7,7 +7,9 @@ Tarea 02 de site para la materia de Programación Orientada a Objetos (POO)
 ##### 2.1 Declaración de clases: atributos, métodos, encapsulamiento. 
 
 *Lee y escribe un resumen con tus palabras del siguiente documento:*
+
 <p style="text-align: justify;">
+ 
  Las clases y estructuras son básicamente estructuras de datos que encapsulan un conjunto de datos y estructuras. 
 Los miembros también son llamados como los datos y comportamientos de la clase, estos incluyen métodos y propiedades, entre otras características.  
 Cuando se crea un objeto de la clase, la variable a la que se asigna el objeto contiene solo una referencia a esa memoria. Cuando la referencia de objeto se asigna a una nueva variable, la nueva variable hace referencia al objeto original. Los cambios realizados en una variable se reflejan en la otra variable porque ambas hacen referencia a los mismos datos. 
@@ -32,12 +34,13 @@ Los objetos se pueden crear usando la palabra clave new, seguida del nombre de l
 ![alt text](http://slideplayer.es/3097366/11/images/11/Pasos+Para+Crear+Objetos.jpg)
 </p>
 
-<p style="text-align: justify;">
+
  
-**4. Herencia **
-La herencia se consigue mediante una derivación, en la que se declara una clase mediante una clase base, desde la que hereda los datos y el comportamiento. 
+**4. Herencia**
+<p style="text-align: justify;">
+La herencia se consigue mediante una derivación, en la que se declara una clase mediante una clase base, desde la que hereda los datos y el comportamiento. </p>
 ![alt text](http://1.bp.blogspot.com/-a98FpmjRW1k/WNGlZI4p7ZI/AAAAAAAACyY/XbCiqIZV2aMKsf9U3o5QWsQoVVPS3ejPQCK4B/s1600/EjemploHerencia.jpg)
-</p>
+
 
 <p style="text-align: justify;">
  
@@ -96,24 +99,25 @@ class Persona
 #### 2.2 Instanciación de una clase. 
 
 <p style="text-align: justify;">
- Investiga sobre el operador new visto en clase. Describe algunos de sus usos. 
+ 
+**Investiga sobre el operador new visto en clase. Describe algunos de sus usos.**
 El operador new Proporciona espacio de almacenamiento persistente, similar pero superior a la función de Librería Estándar malloc. Este operador permite crear un objeto de cualquier tipo, incluyendo tipos definidos por el usuario, y devuelve un puntero (del tipo adecuado) al objeto creado. Su utilización exige que el usuario declarare un puntero del tipo adecuado; a continuación, debe ser inicializado con el valor devuelto por el operador. </p>
 
 **Usos:**
-<p style="text-align: justify;">
- 
-Se utiliza para crear objetos e invocar constructores. 
-Para crear instancias de tipos anónimos. 
-Para invocar el constructor predeterminado de los tipos de valor. 
-</p>
+- Se utiliza para crear objetos e invocar constructores. 
+- Para crear instancias de tipos anónimos. 
+- Para invocar el constructor predeterminado de los tipos de valor. 
 
 
-#### 2.3 Referencia al objeto actual.   
+#### 2.3 Referencia al objeto actual. 
+
 <p style="text-align: justify;">
- La palabra clave this hace referencia a la instancia actual de la clase. </p>
+ 
+ La palabra clave this hace referencia a la instancia actual de la clase. 
+ </p>
  
  
-- ***Escribe un programa donde utilices this para obtener acceso a miembros con el fin de evitar ambigüedades con nombres similares.*** 
+***a) Escribe un programa donde utilices this para obtener acceso a miembros con el fin de evitar ambigüedades con nombres similares.*** 
 
 
 ```
@@ -186,7 +190,7 @@ foreach (Contacto contactos in Contactos)
 } 
 ```
  
-- ***Escribe un programa donde se utilice this como parámetro. ***
+***b) Escribe un programa donde se utilice this como parámetro. ***
 
 
 ![Con titulo](https://images.techhive.com/images/article/2016/10/extensionmethods-100687247-primary.idge.jpg "titulo")
@@ -258,6 +262,7 @@ Los constructores son métodos de clase que se ejecutan cuando se crea un objeto
 ***Uso***  
 
 <p style="text-align: justify;"> 
+ 
 Un constructor que no toma ningún parámetro se denomina constructor predeterminado. Los constructores predeterminados se invocan cada vez que se crea una instancia de un objeto mediante el operador new y no se proporciona ningún argumento a new. 
 Si la clase es estática, a las clases sin constructores se les asigna un constructor público. 
 Los constructores para los tipos struct son similares a los constructores de clases. Este constructor inicializa cada campo del tipo struct con los valores predeterminados. </p>
@@ -265,6 +270,7 @@ Los constructores para los tipos struct son similares a los constructores de cla
 ***Aplicación*** 
 
 <p style="text-align: justify;"> 
+ 
 Este constructor predeterminado sólo se invoca si se crean instancias del tipo struct con new.  
 Por ejemplo, el siguiente código contiene un error porque no se le agrega el new. </p>
 
@@ -288,23 +294,24 @@ Un constructor estático es un miembro que implementa las acciones necesarias pa
   
   #### 2.7 Sobrecarga de operadores: Concepto y utilidad, operadores unarios y binarios. 
 <p style="text-align: justify;"> 
+ 
 Un operador es un símbolo que opera en ciertos tipos de datos y produce la salida como resultado de la operación. En el lenguaje C, se pueden combinar diferentes operadores de categorías similares o diferentes y realizar una operación. En este caso, el compilador de C trata de resolver la expresión de acuerdo con las reglas de precedencia.</p>
   
   ![Con titulo](https://thamet88.files.wordpress.com/2011/09/c4.jpg "titulo")
   <p style="text-align: justify;"> 
  
-  - **Implementa una clase llamada Dado, la cual es una abstracción de los dados de algún juego. **   
-  **Debe de tener por lo menos las siguientes propiedades:**  </p>
-**- valor **  
+ **-Implementa una clase llamada Dado, la cual es una abstracción de los dados de algún juego. **   
+ **-Debe de tener por lo menos las siguientes propiedades:**  </p>
+**-valor **  
 **-color **  
 
 <p style="text-align: justify;"> 
     
 La clase debe contar por lo menos con: 
-Dos constructores sobrecargados. 
-Los operadores ==, <, > sobrecargados. 
-El uso de la palabra clave this. 
-Utiliza tu clase dentro del método Main de tu programa, creando tres dados, arrojándolos e imprimiendo el mejor de ellos 
+a) Dos constructores sobrecargados. 
+b) Los operadores ==, <, > sobrecargados. 
+c) El uso de la palabra clave this. 
+d) Utiliza tu clase dentro del método Main de tu programa, creando tres dados, arrojándolos e imprimiendo el mejor de ellos 
 o si alguno es igual. </p>
 
   
