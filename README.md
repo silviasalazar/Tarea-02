@@ -4,7 +4,7 @@ Tarea 02 de site para la materia de Programación Orientada a Objetos (POO)
 # Tarea 2
 ## UNIDAD 2
 ### Clases y objetos 
-##### 2.1 Declaración de clases: atributos, métodos, encapsulamiento. 
+#### 2.1 Declaración de clases: atributos, métodos, encapsulamiento. 
 
 *Lee y escribe un resumen con tus palabras del siguiente documento:*
  
@@ -29,7 +29,8 @@ Los objetos se pueden crear usando la palabra clave new, seguida del nombre de l
 
 **4. Herencia**
 La herencia se consigue mediante una derivación, en la que se declara una clase mediante una clase base, desde la que hereda los datos y el comportamiento. 
-![alt text] (http://1.bp.blogspot.com/a98FpmjRW1k/WNGlZI4p7ZI/AAAAAAAACyY/XbCiqIZV2aMKsf9U3o5QWsQoVVPS3ejPQCK4B/s1600/EjemploHerencia.jpg)
+![alt text](https://4.bp.blogspot.com/-BQ2Sr33UlEk/WJnpXQuTXJI/AAAAAAAABbo/GTUrPvV3f-Ec8YQeDa3O9yEaB4U-Y107ACK4B/s1600/herencia.PNG)
+
 
  
 Un ejemplo en donde se aplica todo esto es en el siguiente programa: 
@@ -84,10 +85,10 @@ class Persona
 ```
 
 
-#### 2.2 Instanciación de una clase. 
+### 2.2 Instanciación de una clase. 
  
 **Investiga sobre el operador new visto en clase. Describe algunos de sus usos.**
-El operador new Proporciona espacio de almacenamiento persistente, similar pero superior a la función de Librería Estándar malloc. Este operador permite crear un objeto de cualquier tipo, incluyendo tipos definidos por el usuario, y devuelve un puntero (del tipo adecuado) al objeto creado. Su utilización exige que el usuario declarare un puntero del tipo adecuado; a continuación, debe ser inicializado con el valor devuelto por el operador. </p>
+El operador new Proporciona espacio de almacenamiento persistente, similar pero superior a la función de Librería Estándar malloc. Este operador permite crear un objeto de cualquier tipo, incluyendo tipos definidos por el usuario, y devuelve un puntero (del tipo adecuado) al objeto creado. Su utilización exige que el usuario declarare un puntero del tipo adecuado; a continuación, debe ser inicializado con el valor devuelto por el operador. 
 
 **Usos:**
 - Se utiliza para crear objetos e invocar constructores. 
@@ -95,7 +96,7 @@ El operador new Proporciona espacio de almacenamiento persistente, similar pero 
 - Para invocar el constructor predeterminado de los tipos de valor. 
 
 
-#### 2.3 Referencia al objeto actual. 
+### 2.3 Referencia al objeto actual. 
  
  La palabra clave this hace referencia a la instancia actual de la clase. 
  
@@ -176,11 +177,11 @@ foreach (Contacto contactos in Contactos)
 
 ![Con titulo](https://images.techhive.com/images/article/2016/10/extensionmethods-100687247-primary.idge.jpg "titulo")
 
-#### 2.4 Métodos: declaración, mensajes, paso de parámetros, retorno de valores. 
+### 2.4 Métodos: declaración, mensajes, paso de parámetros, retorno de valores. 
  Lee y escribe un resumen con tus palabras de los siguientes documentos: 
  
  
-**Parámetros de métodos (Referencia de C#)**  
+**1. Parámetros de métodos (Referencia de C#)**  
 https://msdn.microsoft.com/es-ES/library/8f1hz171.aspx  
 
 Un argumento o parámetro es el medio a partir del cual podemos expandir el ámbito de variables locales de funciones, hacia otras funciones y además quienes nos permiten establecer comunicaciones entre funciones.  
@@ -193,7 +194,7 @@ params especifica que este parámetro puede tomar un número variable de argumen
 - **out** especifica que este parámetro se pasa por referencia y se escribe mediante el método llamado.
  
  
-**params (Referencia de C#)**
+**2. params (Referencia de C#)**
 https://msdn.microsoft.com/es-es/library/w5zay9db.aspx    
 Mediante el uso de la palabra clave params, puede especificar un parámetro de método que toma un número variable de argumentos. 
 La palabra reservada params se usa en la declaración de los parámetros de un método, se antepone al tipo de dato que vamos a declarar y tiene una peculiaridad, solamente se puede anteponer a parámetros que sean arreglos, por ejemplo a string[], Persona[]. 
@@ -201,7 +202,7 @@ Esto es porque lo que nos ayuda a escribir es un método que recibe una cantidad
 
 
 
-**out (Referencia de C#)**
+**3. out (Referencia de C#)**
 https://msdn.microsoft.com/es-es/library/t3c3bfhx.aspx 
     
 ***Puede usar la palabra clave out en dos contextos:***    
@@ -212,7 +213,7 @@ La palabra clave out produce argumentos que se van a pasar por referencia. Ocurr
 Para los parámetros de tipo genérico, la palabra clave out especifica que el parámetro de tipo es covariante. Puede usar la palabra clave out en las interfaces y delegados genéricos. 
 
  
-**ref (Referencia de C#)**
+**4. ref (Referencia de C#)**
 https://msdn.microsoft.com/es-es/library/14akc2c7.aspx
  
 La palabra clave ref indica un valor que se ha pasado mediante referencia. Se usa en cuatro contextos diferentes: 
@@ -222,10 +223,10 @@ En una firma del método, para devolver un valor al autor de la llamada mediante
 ![ref](https://social.msdn.microsoft.com/Forums/getfile/893432)
 
 
-#### 2.5 Constructores y destructores: declaración, uso y aplicaciones. 
+### 2.5 Constructores y destructores: declaración, uso y aplicaciones. 
 ***Lee y escribe un resumen con tus palabras del siguiente documento:***
   
-**Utilizar constructores**
+#### **Utilizar constructores**
 
 ***¿Qué es?***   
 Los constructores son métodos de clase que se ejecutan cuando se crea un objeto de un tipo determinado. 
@@ -253,10 +254,10 @@ Console.WriteLine(i);
  Un constructor de instancia es un miembro que implementa las acciones necesarias para inicializar una instancia de una clase. Constructores de instancia se declaran mediante *constructor_declarations*.   
 Un constructor estático es un miembro que implementa las acciones necesarias para inicializar un tipo de clase cerrado. Los constructores estáticos se declaran mediante *static_constructor_declarations*.</p>
  
-#### 2.6 Sobrecarga de métodos. 
+### 2.6 Sobrecarga de métodos. 
 ***Ver el ejercicio siguiente***
   
-#### 2.7 Sobrecarga de operadores: Concepto y utilidad, operadores unarios y binarios. 
+### 2.7 Sobrecarga de operadores: Concepto y utilidad, operadores unarios y binarios. 
 Un operador es un símbolo que opera en ciertos tipos de datos y produce la salida como resultado de la operación. En el lenguaje C, se pueden combinar diferentes operadores de categorías similares o diferentes y realizar una operación. En este caso, el compilador de C trata de resolver la expresión de acuerdo con las reglas de precedencia.</p>
   
   ![Con titulo](https://thamet88.files.wordpress.com/2011/09/c4.jpg "titulo")
@@ -264,8 +265,8 @@ Un operador es un símbolo que opera en ciertos tipos de datos y produce la sali
  
 **1. Implementa una clase llamada Dado, la cual es una abstracción de los dados de algún juego. **   
 **2. Debe de tener por lo menos las siguientes propiedades:** 
-**valor **  
-**color **  
+a)valor  
+b)color  
 
 **La clase debe contar por lo menos con:**
 a) Dos constructores sobrecargados. 
