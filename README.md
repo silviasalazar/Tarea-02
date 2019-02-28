@@ -91,6 +91,7 @@ class Persona
  
 **Investiga sobre el operador new visto en clase. Describe algunos de sus usos.**
 El operador new Proporciona espacio de almacenamiento persistente, similar pero superior a la función de Librería Estándar malloc. Este operador permite crear un objeto de cualquier tipo, incluyendo tipos definidos por el usuario, y devuelve un puntero (del tipo adecuado) al objeto creado. Su utilización exige que el usuario declarare un puntero del tipo adecuado; a continuación, debe ser inicializado con el valor devuelto por el operador. 
+
 ![alt text](http://dis.um.es/~lopezquesada/documentos/IES_1314/IAW/curso/UT3/java/java3/images/Captura5.PNG)
 
 **Usos:**
