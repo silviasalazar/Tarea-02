@@ -4,7 +4,9 @@ Tarea 02 de site para la materia de Programación Orientada a Objetos (POO)
 # Tarea 2
 ## UNIDAD 2
 ### Clases y objetos 
-#### 2.1 Declaración de clases: atributos, métodos, encapsulamiento. 
+![alt text](https://aprendiendoarduino.files.wordpress.com/2017/07/clase_coche.png?w=625)
+
+## 2.1 Declaración de clases: atributos, métodos, encapsulamiento. 
 
 *Lee y escribe un resumen con tus palabras del siguiente documento:*
  
@@ -85,10 +87,11 @@ class Persona
 ```
 
 
-### 2.2 Instanciación de una clase. 
+## 2.2 Instanciación de una clase. 
  
 **Investiga sobre el operador new visto en clase. Describe algunos de sus usos.**
 El operador new Proporciona espacio de almacenamiento persistente, similar pero superior a la función de Librería Estándar malloc. Este operador permite crear un objeto de cualquier tipo, incluyendo tipos definidos por el usuario, y devuelve un puntero (del tipo adecuado) al objeto creado. Su utilización exige que el usuario declarare un puntero del tipo adecuado; a continuación, debe ser inicializado con el valor devuelto por el operador. 
+![alt text](http://dis.um.es/~lopezquesada/documentos/IES_1314/IAW/curso/UT3/java/java3/images/Captura5.PNG)
 
 **Usos:**
 - Se utiliza para crear objetos e invocar constructores. 
@@ -96,9 +99,14 @@ El operador new Proporciona espacio de almacenamiento persistente, similar pero 
 - Para invocar el constructor predeterminado de los tipos de valor. 
 
 
-### 2.3 Referencia al objeto actual. 
+## 2.3 Referencia al objeto actual. 
  
  La palabra clave this hace referencia a la instancia actual de la clase. 
+ Un método miembro de un objeto está asociado al objeto. Cuando este se está ejecutando podemos usar this, para conseguir una referencia al objeto asociado.
+
+Dentro del método, podemos usar this.nombre para acceder al nombre del objeto asociado.
+
+La palabra clave this, funciona igual dentro de un constructor.
  
 ***1. Escribe un programa donde utilices this para obtener acceso a miembros con el fin de evitar ambigüedades con nombres similares.*** 
 
@@ -174,10 +182,11 @@ foreach (Contacto contactos in Contactos)
 ```
  
 ***2. Escribe un programa donde se utilice this como parámetro.***
+this además de evitar ambiguedades también puede ser utilizado como parámetro, así como se muestra a continuación:
 
 ![Con titulo](https://images.techhive.com/images/article/2016/10/extensionmethods-100687247-primary.idge.jpg "titulo")
 
-### 2.4 Métodos: declaración, mensajes, paso de parámetros, retorno de valores. 
+## 2.4 Métodos: declaración, mensajes, paso de parámetros, retorno de valores. 
  Lee y escribe un resumen con tus palabras de los siguientes documentos: 
  
  
@@ -223,13 +232,14 @@ En una firma del método, para devolver un valor al autor de la llamada mediante
 ![ref](https://social.msdn.microsoft.com/Forums/getfile/893432)
 
 
-### 2.5 Constructores y destructores: declaración, uso y aplicaciones. 
+## 2.5 Constructores y destructores: declaración, uso y aplicaciones. 
 ***Lee y escribe un resumen con tus palabras del siguiente documento:***
   
 #### **Utilizar constructores**
 
 ***¿Qué es?***   
 Los constructores son métodos de clase que se ejecutan cuando se crea un objeto de un tipo determinado. 
+![alt text](https://docs.microsoft.com/es-es/visualstudio/ide/reference/media/constructor4-highlight-cs.png?view=vs-2017)
 
 ***Uso***   
 Un constructor que no toma ningún parámetro se denomina constructor predeterminado. Los constructores predeterminados se invocan cada vez que se crea una instancia de un objeto mediante el operador new y no se proporciona ningún argumento a new. 
@@ -263,15 +273,22 @@ Un operador es un símbolo que opera en ciertos tipos de datos y produce la sali
   ![Con titulo](https://thamet88.files.wordpress.com/2011/09/c4.jpg "titulo")
   <p style="text-align: justify;"> 
  
-**1. Implementa una clase llamada Dado, la cual es una abstracción de los dados de algún juego. **   
+**1. Implementa una clase llamada Dado, la cual es una abstracción de los dados de algún juego.**   
+
 **2. Debe de tener por lo menos las siguientes propiedades:** 
+
 a)valor  
+
 b)color  
 
 **La clase debe contar por lo menos con:**
+
 a) Dos constructores sobrecargados. 
+
 b) Los operadores ==, <, > sobrecargados. 
+
 c) El uso de la palabra clave this. 
+
 d) Utiliza tu clase dentro del método Main de tu programa, creando tres dados, arrojándolos e imprimiendo el mejor de ellos 
 o si alguno es igual. 
 
