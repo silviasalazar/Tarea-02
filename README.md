@@ -97,8 +97,11 @@ class Persona
 
 <p style="text-align: justify;">
  Investiga sobre el operador new visto en clase. Describe algunos de sus usos. 
-El operador new Proporciona espacio de almacenamiento persistente, similar pero superior a la función de Librería Estándar malloc. Este operador permite crear un objeto de cualquier tipo, incluyendo tipos definidos por el usuario, y devuelve un puntero (del tipo adecuado) al objeto creado. Su utilización exige que el usuario declarare un puntero del tipo adecuado; a continuación, debe ser inicializado con el valor devuelto por el operador. 
-Usos: 
+El operador new Proporciona espacio de almacenamiento persistente, similar pero superior a la función de Librería Estándar malloc. Este operador permite crear un objeto de cualquier tipo, incluyendo tipos definidos por el usuario, y devuelve un puntero (del tipo adecuado) al objeto creado. Su utilización exige que el usuario declarare un puntero del tipo adecuado; a continuación, debe ser inicializado con el valor devuelto por el operador. </p>
+
+**Usos:**
+<p style="text-align: justify;">
+ 
 Se utiliza para crear objetos e invocar constructores. 
 Para crear instancias de tipos anónimos. 
 Para invocar el constructor predeterminado de los tipos de valor. 
@@ -107,10 +110,11 @@ Para invocar el constructor predeterminado de los tipos de valor.
 
 #### 2.3 Referencia al objeto actual.   
 <p style="text-align: justify;">
- La palabra clave this hace referencia a la instancia actual de la clase. 
+ La palabra clave this hace referencia a la instancia actual de la clase. </p>
+ 
  
 - ***Escribe un programa donde utilices this para obtener acceso a miembros con el fin de evitar ambigüedades con nombres similares.*** 
-</p>
+
 
 ```
 { 
@@ -181,10 +185,9 @@ foreach (Contacto contactos in Contactos)
    } 
 } 
 ```
-<p style="text-align: justify;">
  
 - ***Escribe un programa donde se utilice this como parámetro. ***
-</p>
+
 
 ![Con titulo](https://images.techhive.com/images/article/2016/10/extensionmethods-100687247-primary.idge.jpg "titulo")
 
@@ -212,7 +215,7 @@ params especifica que este parámetro puede tomar un número variable de argumen
 - **out** especifica que este parámetro se pasa por referencia y se escribe mediante el método llamado.</p>
  <p style="text-align: justify;">
  
-**params (Referencia de C#)  **
+**params (Referencia de C#)**
 https://msdn.microsoft.com/es-es/library/w5zay9db.aspx    
 Mediante el uso de la palabra clave params, puede especificar un parámetro de método que toma un número variable de argumentos. 
 La palabra reservada params se usa en la declaración de los parámetros de un método, se antepone al tipo de dato que vamos a declarar y tiene una peculiaridad, solamente se puede anteponer a parámetros que sean arreglos, por ejemplo a string[], Persona[]. 
@@ -221,7 +224,7 @@ Esto es porque lo que nos ayuda a escribir es un método que recibe una cantidad
   <p style="text-align: justify;">
  
 **out (Referencia de C#)**
-    https://msdn.microsoft.com/es-es/library/t3c3bfhx.aspx 
+https://msdn.microsoft.com/es-es/library/t3c3bfhx.aspx 
     
 ***Puede usar la palabra clave out en dos contextos: ***    
 - Como un **modificador de parámetro**, que le permite pasar un argumento a un método mediante una referencia en lugar de mediante un valor. 
@@ -238,6 +241,7 @@ https://msdn.microsoft.com/es-es/library/14akc2c7.aspx
 La palabra clave ref indica un valor que se ha pasado mediante referencia. Se usa en cuatro contextos diferentes: 
 En una firma del método y en una llamada al método, para pasar un argumento a un método mediante referencia. 
 En una firma del método, para devolver un valor al autor de la llamada mediante referencia. 
+
 ![ref](https://social.msdn.microsoft.com/Forums/getfile/893432)
 </p>
 
@@ -247,19 +251,23 @@ En una firma del método, para devolver un valor al autor de la llamada mediante
 **Utilizar constructores **
 
 ***¿Qué es?***   
+
   <p style="text-align: justify;">
 Los constructores son métodos de clase que se ejecutan cuando se crea un objeto de un tipo determinado. </p>
 
 ***Uso***  
+
 <p style="text-align: justify;"> 
 Un constructor que no toma ningún parámetro se denomina constructor predeterminado. Los constructores predeterminados se invocan cada vez que se crea una instancia de un objeto mediante el operador new y no se proporciona ningún argumento a new. 
 Si la clase es estática, a las clases sin constructores se les asigna un constructor público. 
 Los constructores para los tipos struct son similares a los constructores de clases. Este constructor inicializa cada campo del tipo struct con los valores predeterminados. </p>
 
-***Aplicación***  
+***Aplicación*** 
+
 <p style="text-align: justify;"> 
 Este constructor predeterminado sólo se invoca si se crean instancias del tipo struct con new.  
 Por ejemplo, el siguiente código contiene un error porque no se le agrega el new. </p>
+
 ```
 int i; 
 Console.WriteLine(i); 
@@ -269,16 +277,18 @@ La manera correcta es:
 int i = new int(); 
 Console.WriteLine(i); 
 ```   
-***Existen dos tipos de constructores:***    
-<p style="text-align: justify;">Un constructor de instancia es un miembro que implementa las acciones necesarias para inicializar una instancia de una clase. Constructores de instancia se declaran mediante *constructor_declarations*.   
+***Existen dos tipos de constructores:***  
+
+<p style="text-align: justify;">
+ Un constructor de instancia es un miembro que implementa las acciones necesarias para inicializar una instancia de una clase. Constructores de instancia se declaran mediante *constructor_declarations*.   
 Un constructor estático es un miembro que implementa las acciones necesarias para inicializar un tipo de clase cerrado. Los constructores estáticos se declaran mediante *static_constructor_declarations*.</p>
  
 #### 2.6 Sobrecarga de métodos. 
- ***Ver el ejercicio siguiente***
+***Ver el ejercicio siguiente***
   
   #### 2.7 Sobrecarga de operadores: Concepto y utilidad, operadores unarios y binarios. 
 <p style="text-align: justify;"> 
-  Un operador es un símbolo que opera en ciertos tipos de datos y produce la salida como resultado de la operación. En el lenguaje C, se pueden combinar diferentes operadores de categorías similares o diferentes y realizar una operación. En este caso, el compilador de C trata de resolver la expresión de acuerdo con las reglas de precedencia.</p>
+Un operador es un símbolo que opera en ciertos tipos de datos y produce la salida como resultado de la operación. En el lenguaje C, se pueden combinar diferentes operadores de categorías similares o diferentes y realizar una operación. En este caso, el compilador de C trata de resolver la expresión de acuerdo con las reglas de precedencia.</p>
   
   ![Con titulo](https://thamet88.files.wordpress.com/2011/09/c4.jpg "titulo")
   <p style="text-align: justify;"> 
