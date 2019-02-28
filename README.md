@@ -6,6 +6,12 @@ Tarea 02 de site para la materia de Programación Orientada a Objetos (POO)
 ### Clases y objetos 
 ![alt text](https://aprendiendoarduino.files.wordpress.com/2017/07/clase_coche.png?w=625)
 
+## Introducción
+
+Bienvenido, esta tarea fue realizada con la finalidad de entender principalmente que es una clase y como se compone, desde lo más básico hasta lo más complejo, por ejemplo, esta se compone por un método y atributos pero...¿cómo es que estan conformados estos?¿cómo es que se declaran cada uno de ellos?.
+
+Si alguna vez te haz hecho este tipo de preguntas, a continuación se podrán resolver estas inquietudes que todavía siguen presentes utilizando conceptos muy sencillos de comprender y de igual manera utilizando algunos ejemplos.
+
 ## 2.1 Declaración de clases: atributos, métodos, encapsulamiento. 
 
 *Lee y escribe un resumen con tus palabras del siguiente documento:*
@@ -255,9 +261,10 @@ Los constructores son métodos de clase que se ejecutan cuando se crea un objeto
 ***Uso***   
 Un constructor que no toma ningún parámetro se denomina constructor predeterminado. Los constructores predeterminados se invocan cada vez que se crea una instancia de un objeto mediante el operador new y no se proporciona ningún argumento a new. 
 Si la clase es estática, a las clases sin constructores se les asigna un constructor público. 
-Los constructores para los tipos struct son similares a los constructores de clases. Este constructor inicializa cada campo del tipo struct con los valores predeterminados. </p>
+Los constructores para los tipos struct son similares a los constructores de clases. Este constructor inicializa cada campo del tipo struct con los valores predeterminados. 
 
 ***Aplicación*** 
+
 Este constructor predeterminado sólo se invoca si se crean instancias del tipo struct con new. 
 
 Por ejemplo, el siguiente código contiene un error porque no se le agrega el new. 
@@ -273,13 +280,13 @@ Console.WriteLine(i);
 ```   
 ***Existen dos tipos de constructores:***  
  Un constructor de instancia es un miembro que implementa las acciones necesarias para inicializar una instancia de una clase. Constructores de instancia se declaran mediante *constructor_declarations*.   
-Un constructor estático es un miembro que implementa las acciones necesarias para inicializar un tipo de clase cerrado. Los constructores estáticos se declaran mediante *static_constructor_declarations*.</p>
+Un constructor estático es un miembro que implementa las acciones necesarias para inicializar un tipo de clase cerrado. Los constructores estáticos se declaran mediante *static_constructor_declarations*.
  
 ### 2.6 Sobrecarga de métodos. 
 ***Ver el ejercicio siguiente***
   
 ### 2.7 Sobrecarga de operadores: Concepto y utilidad, operadores unarios y binarios. 
-Un operador es un símbolo que opera en ciertos tipos de datos y produce la salida como resultado de la operación. En el lenguaje C, se pueden combinar diferentes operadores de categorías similares o diferentes y realizar una operación. En este caso, el compilador de C trata de resolver la expresión de acuerdo con las reglas de precedencia.</p>
+Un operador es un símbolo que opera en ciertos tipos de datos y produce la salida como resultado de la operación. En el lenguaje C, se pueden combinar diferentes operadores de categorías similares o diferentes y realizar una operación. En este caso, el compilador de C trata de resolver la expresión de acuerdo con las reglas de precedencia.
   
   ![Con titulo](https://thamet88.files.wordpress.com/2011/09/c4.jpg "titulo")
   <p style="text-align: justify;"> 
@@ -366,12 +373,5 @@ namespace Dados2
     }
 }
 ```
-
-
-  
- 
- 
- 
- 
-
-
+## Conclusión
+Las clases son muy importantes pero también cada una de sus características y puntos y/o funciones que la integran, ya que gracias a ellos es que puede llamarse clase y podrá ejecutarse para poder realizar alguna funcióon para la cual fue creada.
