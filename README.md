@@ -12,7 +12,9 @@ Tarea 02 de site para la materia de Programación Orientada a Objetos (POO)
  
  Las clases y estructuras son básicamente estructuras de datos que encapsulan un conjunto de datos y estructuras. 
 Los miembros también son llamados como los datos y comportamientos de la clase, estos incluyen métodos y propiedades, entre otras características.  
+
 Cuando se crea un objeto de la clase, la variable a la que se asigna el objeto contiene solo una referencia a esa memoria. Cuando la referencia de objeto se asigna a una nueva variable, la nueva variable hace referencia al objeto original. Los cambios realizados en una variable se reflejan en la otra variable porque ambas hacen referencia a los mismos datos. 
+
 Una estructura es un tipo de valor. Existen dos tipos la estructura original y la copia o mejor dicho copias. Cuando se crea una estructura esta contiene los datos reales en ella, la cual es conocida como estructura original, cuando a dicha estructura se le asigna una nueva variable a esta se le conoce como copia, asi mismo estas dos son muy diferentes y contienen información independiente de la otra clase. 
 
 Dentro de esto también interviene: 
@@ -20,6 +22,7 @@ Dentro de esto también interviene:
  
 **1. Tipos de referencia:** 
 Un tipo que se define como una clase, es un tipo de referencia. Al declarar una variable de un tipo de referencia en tiempo de ejecución.
+![alt text](https://1.bp.blogspot.com/-iJsFK1g5_n0/UdieXNvilLI/AAAAAAAAFnY/yl9fdGzIzqQ/s1600/Dev+-+CSharp+5.0+in+a+Nutshell+-+Chapter+02+-+Figura+2.+Tipos+de+Datos+por+Referencia.png)
  
 **2. Declarar clases:**
 Las clases se declaran mediante la palabra clave class seguida por un identificador único.
@@ -207,6 +210,7 @@ params especifica que este parámetro puede tomar un número variable de argumen
 **2. params (Referencia de C#)**
 https://msdn.microsoft.com/es-es/library/w5zay9db.aspx    
 Mediante el uso de la palabra clave params, puede especificar un parámetro de método que toma un número variable de argumentos. 
+
 La palabra reservada params se usa en la declaración de los parámetros de un método, se antepone al tipo de dato que vamos a declarar y tiene una peculiaridad, solamente se puede anteponer a parámetros que sean arreglos, por ejemplo a string[], Persona[]. 
 Esto es porque lo que nos ayuda a escribir es un método que recibe una cantidad variable de argumentos del mismo tipo y los “introduce” un un arreglo sin tener que declararlo explícitamente. 
 
@@ -227,8 +231,9 @@ Para los parámetros de tipo genérico, la palabra clave out especifica que el p
 https://msdn.microsoft.com/es-es/library/14akc2c7.aspx
  
 La palabra clave ref indica un valor que se ha pasado mediante referencia. Se usa en cuatro contextos diferentes: 
-En una firma del método y en una llamada al método, para pasar un argumento a un método mediante referencia. 
-En una firma del método, para devolver un valor al autor de la llamada mediante referencia. 
+
+-En una firma del método y en una llamada al método, para pasar un argumento a un método mediante referencia. 
+-En una firma del método, para devolver un valor al autor de la llamada mediante referencia. 
 
 ![ref](https://social.msdn.microsoft.com/Forums/getfile/893432)
 
